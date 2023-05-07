@@ -1,0 +1,17 @@
+{
+  "tests": {
+    "test1": {
+      "num1": 10,
+      "num2": 101
+    },
+    "test2": {
+      "numbers": [1, 2, 3, 4, 3, 5]
+    },
+    "test3": {
+      "barWeight": 20,
+      "weightsKg": [0.5, 1, 2.5, 5, 10, 15, 20, 25],
+      "weightsLbs": [10, 25, 35, 45],
+      "weight": 101
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "test1": {
+    "result": "true"
+  },
+  "test2": {
+    "result": "true"
+  },
+  "test3": {
+    "result": [
+      "1kg",
+      "5kg",
+      "10kg",
+      "20kg",
+      "10lbs"
+    ]
+  }
+}
