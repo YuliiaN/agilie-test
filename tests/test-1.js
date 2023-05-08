@@ -1,8 +1,3 @@
-// Завдання 1.  Два друга грають у гру, вони обидва загадують число.
-// Перший повинен перетворити одне число на інше за допомогою множення цього числа на 2 (10 * 2 = 20) або додаванням одиниці праворуч (10 + 1 = 101).
-
-// Потрібно написати програму, яка буде знаходити, чи можливо одне число перетворити на інше, використовуючи лише перераховані вище операції.
-
 const fs = require("fs");
 const path = require("path");
 const { tests } = require("../data.json");
@@ -35,7 +30,6 @@ data.test1 = { result: JSON.stringify(result) };
 
 fs.writeFileSync(filePath, JSON.stringify(data, null, 2), (err) => {
   if (err) throw err;
-  console.log("Data has been updated!");
 });
 
 module.exports = {

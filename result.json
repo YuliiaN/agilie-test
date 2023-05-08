@@ -7,11 +7,18 @@
   },
   "test3": {
     "result": [
-      "1kg",
+      "0.5kg",
       "5kg",
       "10kg",
       "20kg",
+      "25kg",
       "10lbs"
     ]
+  },
+  "test3_2": {
+    "result": "true"
+  },
+  "test4": {
+    "result": 5
   }
 }
